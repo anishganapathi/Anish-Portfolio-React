@@ -20,4 +20,11 @@ To get started with this project, follow these steps:
 ```bash
 npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 
-npm run dev
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in the development mode.\
+Open [(http://localhost:5173/)](http://localhost:5173/) to view it in your browser.
