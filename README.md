@@ -20,7 +20,7 @@ To get started with this project, follow these steps:
 ```bash
 npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 
-
+```bash
 In the project directory, you can run:
 
 npm run dev
