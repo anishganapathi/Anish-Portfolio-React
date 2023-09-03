@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import vitopia from "./company/vitopia.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Vitopia1 from "./Vitopia1.png";
+import Stroke1 from "./Stroke1.png";
+import Drum1 from "./Drum1.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   vitopia,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Vitopia1,
+  Stroke1,
+  Drum1,
 };

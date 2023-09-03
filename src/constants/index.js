@@ -19,9 +19,9 @@ import {
   vitopia,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Vitopia1,
+  Stroke1,
+  Drum1,
   threejs,
 } from "../assets";
 
@@ -50,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cloud Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "ML Engineer",
     icon: creator,
   },
 ];
@@ -100,17 +100,10 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,58 +191,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Vitopia(2023) Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows students of VIT-AP to search, book tickets for various events and providing a convenient and efficient Web-app for the two-day event.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Vitopia1,
+    source_code_link: "https://github.com/anishganapathi/Vitopia-2023-website",
   },
   {
-    name: "Job IT",
+    name: "Prediction Analysis",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Flask Application involves using tabular data and machine learning techniques to predict the risk of an individual experiencing a stroke in the future.",
     tags: [
       {
-        name: "react",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +225,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Stroke1,
+    source_code_link: "https://github.com/anishganapathi/Stroke-prediction-analysis",
+  },
+  {
+    name: "Drum Simulator",
+    description:
+      "web application designed to provide users with an interactive drumming experience. Built using HTML, CSS & JS, allows users to play a drum in their browser.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Drum1,
+    source_code_link: "https://github.com/anishganapathi/Drum-simulator-Basic-JS",
   },
 ];
 
