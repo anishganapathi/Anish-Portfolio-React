@@ -135,7 +135,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designed User-Interface for Vitopia(2023) Mobile application.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
