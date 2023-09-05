@@ -161,7 +161,7 @@ const projects = [
       "Flask Application involves using tabular data and machine learning techniques to predict the risk of an individual experiencing a stroke in the future.",
     tags: [
       {
-        name: "Flask",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
