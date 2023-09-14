@@ -176,27 +176,27 @@ const projects = [
     image: Stroke1,
     source_code_link: "https://github.com/anishganapathi/Stroke-prediction-analysis",
   },
-  {
-    name: "Drum Simulator",
-    description:
-      "Web application designed to provide users with an interactive drumming experience. Built using HTML, CSS & JS, allows users to play a drum in their browser.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Drum1,
-    source_code_link: "https://github.com/anishganapathi/Drum-simulator-Basic-JS",
-  },
+  // {
+  //   name: "Drum Simulator",
+  //   description:
+  //     "Web application designed to provide users with an interactive drumming experience. Built using HTML, CSS & JS, allows users to play a drum in their browser.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: Drum1,
+  //   source_code_link: "https://github.com/anishganapathi/Drum-simulator-Basic-JS",
+  // },
 ];
 
 export { services, technologies, experiences, projects };
