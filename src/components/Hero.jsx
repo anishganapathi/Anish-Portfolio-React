@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
 
+import Ball from "./canvas/Ball";
+
 import { styles } from "../styles";
 
 
 const Hero = () => {
   return (
     <section className={`relative w-25 h-screen mx-auto`}>
+     
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
