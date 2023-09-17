@@ -13,7 +13,15 @@
   color-scheme: dark;
 }
 
-
+.spline-scene{
+  position: relative;
+  z-index: 0;
+}
+.spline-text{
+   position: 'absolute';
+   top: '100px';
+   left: '100px'
+}
 
 .object-contain{
   object-fit: contain;
@@ -27,6 +35,8 @@
   padding-bottom: 100px;
   display: block;
 }
+
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
