@@ -118,7 +118,7 @@ const experiences = [
       "Developed Vitopia(2023) web application using React.js,tailwind.css other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      ,
     ],
   },
   {
@@ -129,9 +129,9 @@ const experiences = [
     date: "Jan 2023 - March 2023",
     points: [
       "Designed User-Interface for Vitopia(2023) Mobile application.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Prioritized user-centered design principles to ensure the Vitopia app met the needs and expectations of its target audience.",
+      "Maintained a strong commitment to project timelines, ensuring timely delivery of UI assets to support development milestones.",
+      ,
     ],
   },
 ];
