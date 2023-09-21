@@ -18,7 +18,7 @@ To get started with this project, follow these steps:
 2. Install the required dependencies using npm or yarn.
 
 ```bash
-npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+npm install --legacy-peer-deps @react-three/fiber @splinetool/runtime @react-three/drei maath react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 
 ## Available Scripts
 
