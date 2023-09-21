@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.upper-layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 20vh;
+  width: 60vw;
+  margin: 10vh auto; /* Vertically center with 10vh margin from the top */
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.094);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.107);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.103);
+  z-index: 4;
+}
+
+
+.glass-text{
+    animation: wave 1s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  }
+}
+

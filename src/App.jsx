@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import SplineMain from "./components/SplineMain";
+import GlassUI from "./components/GlassUI/GlassUI";
 
 import Footer from "../src/components/Footer";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
@@ -20,6 +21,7 @@ const App = () => {
         <Works />
         <Feedbacks />
         <div className='relative z-0'>
+          <GlassUI />
           <Contact />
           <StarsCanvas />
           <Footer />
