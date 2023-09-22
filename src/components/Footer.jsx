@@ -11,24 +11,49 @@ function Footer() {
   return (
     <>
       <footer className="bg-black footer-main" style={{
-        paddingTop: "30px",
+        paddingTop: "15px",
+        paddingBottom: "10px",
       }}>
         <div className="container mx-auto py-1">
           {/* footer div all */}
           <div className="flex justify-between flex-col md:flex-row  items-center md:items-start  md:gap-[5rem] text-left">
             {/* logo side */}
-            <div className="flex flex-col w-1/2 pl-4 py-4 gap-8 ">
-              <img
+            <div className="flex flex-col w-1/2 pl-4 py-3 gap-8 ">
+              {/* <img
                 src={"https://i.ibb.co/sW9xhNT/A-logo.png"}
                 alt="footer_logo"
-                className="w-[8rem]"
-              />
+                className="w-[8rem] flex justify-center items-center"
+              /> */}
               
-              <p className="text-[15px] font-medium text-[#9ba2c3]">
+              {/* <p className="text-[15px] font-medium text-[#9ba2c3]">
                  <b>BE</b> Gentle with the <b>YOU</b>ng....!
-              </p>
+              </p> */}
               {/* socials */}
-              <div className="flex gap-7 text-[18px] text-[#646464] justify-center md:justify-start">
+              
+              
+              <p className="text-[16px] font-medium text-[#9ba2c3]">
+                Privacy Policy | © {new Date().getFullYear()}  {" "}
+                {/* Design by{" "} */}
+                
+              </p>
+              
+            </div>
+               
+             <div>
+              
+              <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.anishganapathi.com/"
+                  className="text-[16px] font-bold hover:text-[#ff0366] cursor-pointer text-[#9ba2c3] footer-name-text"
+                  style={{lineHeight:"2.8",paddingRight: "250px",}}
+                >
+                  AnishGanapathi
+                </a>
+             </div>
+            
+            <div className="flex flex-col gap-9 relative">
+              <div className="flex gap-7 text-[18px] text-[#646464] justify-center md:justify-start" style={{paddingRight: "30px",}}>
   {iconsTab.map(({ icon, link }, index) => {
     return (
       <a
@@ -48,23 +73,7 @@ function Footer() {
     );
   })}
 </div>
-              
-              <p className="text-[16px] font-medium text-[#9ba2c3]">
-                Privacy Policy | © {new Date().getFullYear()}  <br />{" "}
-                {/* Design by{" "}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.anishganapathi.com/"
-                >
-                  AnishGanapathi
-                </a> */}
-              </p>
-            </div>
-
-            
-            <div className="flex flex-col gap-9 relative">
-              <p className="text-[22px] font-bold footer-main">Fields of fascination</p>
+              {/* <p className="text-[22px] font-bold footer-main">Fields of Fascination</p>
 
               <span className="top-[33px] absolute w-[12.5rem] h-[3.5px] bg-[#ff0366]" />
 
@@ -82,11 +91,12 @@ function Footer() {
               </p>
               <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#9ba2c3] font-medium hover:font-bold">
                 Linux
-              </p>
+              </p> */}
             </div>
 
            
-            <span />
+            {/* <span /> */}
+            
           </div>
         </div>
       </footer>

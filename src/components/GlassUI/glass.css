@@ -41,3 +41,9 @@
   }
 }
 
+
+@media (max-width: 767px){
+   .glass-text{
+  font-size: 3px;
+}
+}

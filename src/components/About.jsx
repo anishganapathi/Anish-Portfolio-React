@@ -50,7 +50,7 @@ const About = () => {
         I'm a skilled Web developer with experience in JavaScript, and expertise
         in frameworks like React, Node.js, and Three.js. I'm a quick learner and
         crafts solutions that are efficient, user-friendly, and can grow as
-        needed. embark on this journey together and let's transform our visions
+        needed. Embark on this journey together and let's transform our visions
         into reality.
       </motion.p>
 
