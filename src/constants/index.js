@@ -118,7 +118,7 @@ const experiences = [
       "Developed Vitopia(2023) web application using React.js,tailwind.css other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      ,
     ],
   },
   {
@@ -129,9 +129,9 @@ const experiences = [
     date: "Jan 2023 - March 2023",
     points: [
       "Designed User-Interface for Vitopia(2023) Mobile application.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Prioritized user-centered design principles to ensure the Vitopia app met the needs and expectations of its target audience.",
+      "Maintained a strong commitment to project timelines, ensuring timely delivery of UI assets to support development milestones.",
+      ,
     ],
   },
 ];
@@ -176,27 +176,6 @@ const projects = [
     image: Stroke1,
     source_code_link: "https://github.com/anishganapathi/Stroke-prediction-analysis",
   },
-  // {
-  //   name: "Drum Simulator",
-  //   description:
-  //     "Web application designed to provide users with an interactive drumming experience. Built using HTML, CSS & JS, allows users to play a drum in their browser.",
-  //   tags: [
-  //     {
-  //       name: "HTML",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "JavaScript",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: Drum1,
-  //   source_code_link: "https://github.com/anishganapathi/Drum-simulator-Basic-JS",
-  // },
 ];
 
 export { services, technologies, experiences, projects };
