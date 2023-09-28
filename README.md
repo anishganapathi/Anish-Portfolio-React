@@ -19,12 +19,14 @@ To get started with this project, follow these steps:
 
 ```bash
 npm install --legacy-peer-deps @react-three/fiber @splinetool/runtime @react-three/drei maath react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-`npm run dev`
+```bash
+npm run dev
+```
 
 Runs the app in the development mode.
 
