@@ -7,7 +7,7 @@ Getting Started
 To get started with this project, follow these steps:
 
 Clone this repository to your local machine.
-Install the required dependencies using npm or yarn.
+Install the required dependencies using npm.
 Explore the project's source code and follow the documentation provided in the codebase.
 
 ## Getting Started
