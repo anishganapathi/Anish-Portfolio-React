@@ -1,5 +1,5 @@
 ## Introduction
-Welcome to the React Three Fiber 3D Website repository! In this project, we combine the power of Spline, Vite.js, Three.js, React Three Fiber, Tailwind CSS, and Framer Motion to create an engaging and interactive 3D graphics website. Whether you're a seasoned developer or just starting with web development, this repository will help you learn how to leverage these technologies to create stunning 3D web experiences.
+Welcome to the React Three Fiber 3D Website repository! In this project, we combine the power of Spline, Vite.js, Three.js, React Three Fiber, Tailwind CSS, and Framer Motion to create an engaging and interactive 3D website. Whether you're a seasoned developer or just starting with web development, this repository will help you learn how to leverage these technologies to create stunning 3D web experiences.
 What You'll Learn
 In this repository, you'll discover how to:
 
