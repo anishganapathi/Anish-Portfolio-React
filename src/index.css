@@ -8,6 +8,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.hacked-text {
+  color:white;
+  font-size:5rem;
+  font-family: 'popins', sans-serif;
+  font-weight: 900;
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
   .text-shine-blaze {
      
