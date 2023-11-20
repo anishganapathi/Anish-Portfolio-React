@@ -1,48 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Gradient Scrollbar */
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  border-radius: 0px;
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cfb4ff;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #311267;
+}
 
 .hacked-text {
-  color:white;
-  font-size:5rem;
-  font-family: 'popins', sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-family: "popins", sans-serif;
   font-weight: 900;
 }
 
-
-
-
-
-
-
-
 @media only screen and (max-width: 768px) {
   .text-shine-blaze {
-     
-font-size: medium;
-     padding-right: 90px;
+    font-size: medium;
+    padding-right: 90px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * {
   margin: 0;
@@ -69,12 +71,11 @@ font-size: medium;
 
 @media (max-width: 768px) {
   .text-shine-blaze {
-    font-size: 1em; 
-     animation: animate 8s linear infinite;
-     font-weight: bolder;
+    font-size: 1em;
+    animation: animate 8s linear infinite;
+    font-weight: bolder;
   }
 }
-
 
 @keyframes animate {
   0% {
@@ -85,61 +86,45 @@ font-size: medium;
   }
 }
 
-
-
 @media (max-width: 768px) {
-  .glitch{
-  
+  .glitch {
+  }
 }
-}
 
-
-
-
-
-.footer-main{
+.footer-main {
   background-color: #151030;
 }
 
 @media (max-width: 768px) {
-  .glass-text{
-  font-size: medium;
+  .glass-text {
+    font-size: medium;
+  }
 }
-}
-
 
 @media (max-width: 768px) {
-  .footer-name-text{
-  visibility: hidden;
+  .footer-name-text {
+    visibility: hidden;
+  }
 }
-}
 
-
-
-.spline-scene{
+.spline-scene {
   position: relative;
   z-index: -1;
-  
 }
-.spline-text{
-   
-   z-index: 1;
+.spline-text {
+  z-index: 1;
 }
 
-.object-contain{
+.object-contain {
   object-fit: contain;
   border-radius: 50%;
 }
-
-
 
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
 }
-
-
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
@@ -156,17 +141,14 @@ font-size: medium;
 }
 
 .violet-gradient {
-  background: #C63D2F;
-  background: linear-gradient(-90deg, #C63D2F 0%, rgba(60, 51, 80, 0) 100%);
+  background: #c63d2f;
+  background: linear-gradient(-90deg, #c63d2f 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #C63D2F 0%,
+    #c63d2f 0%,
     rgba(60, 51, 80, 0) 100%
-      
   );
 }
-
-
 
 .green-pink-gradient {
   background: "#00cea8";
