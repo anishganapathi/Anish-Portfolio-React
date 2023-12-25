@@ -7,6 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import cyby from "./cyby.gif";
+import uid from "./uid.gif";
+import webby from "./webby.gif";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -31,6 +35,9 @@ import Stroke1 from "./Stroke1.png";
 import Drum1 from "./Drum1.png";
 
 export {
+  cyby,
+  uid,
+  webby,
   logo,
   backend,
   creator,

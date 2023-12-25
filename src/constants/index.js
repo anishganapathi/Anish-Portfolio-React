@@ -50,12 +50,8 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Cloud Engineer",
+    title: "Cyb Sec Enthusiast",
     icon: backend,
-  },
-  {
-    title: "ML Engineer",
-    icon: creator,
   },
 ];
 
@@ -136,7 +132,6 @@ const experiences = [
   },
 ];
 
-
 const projects = [
   {
     name: "Vitopia(2023) Website",
@@ -174,7 +169,8 @@ const projects = [
       },
     ],
     image: Stroke1,
-    source_code_link: "https://github.com/anishganapathi/Stroke-prediction-analysis",
+    source_code_link:
+      "https://github.com/anishganapathi/Stroke-prediction-analysis",
   },
 ];
 

@@ -3,14 +3,23 @@ import SplineMain from "./components/SplineMain";
 import GlassUI from "./components/GlassUI/GlassUI";
 
 import Footer from "../src/components/Footer";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+  StarsCanvas,
+} from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-       
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <SplineMain />
           {/* <Hero /> */}
@@ -20,7 +29,7 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
-        <div className='relative z-0'>
+        <div className="relative z-0">
           <GlassUI />
           <Contact />
           <StarsCanvas />
@@ -29,6 +38,6 @@ const App = () => {
       </div>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
